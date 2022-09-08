@@ -565,6 +565,11 @@ extension ChartDataSet: RangeReplaceableCollection {
         entries.removeSubrange(bounds)
         notifyDataSetChanged()
     }
+    
+    public func replaceSubrange<C>(_ subrange: Swift.Range<Index>, with newElements: C) where C : Collection, Element == C.Element {
+        entries.replaceSubrange(subrange, with: newElements)
+        notifyDataSetChanged()
+    }
 
     @objc
     public func removeAll(keepingCapacity keepCapacity: Bool) {
