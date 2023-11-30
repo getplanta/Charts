@@ -6,12 +6,12 @@
 //  A port of MPAndroidChart for iOS
 //  Licensed under Apache License 2.0
 //
-//  https://github.com/danielgindi/Charts
+//  https://github.com/danielgindi/DGCharts
 //
 
 #import <UIKit/UIKit.h>
 #import "DemoBaseViewController.h"
-#import <Charts/Charts.h>
+#import <DGCharts/DGCharts.h>
 
 @interface CubicLineChartViewController : DemoBaseViewController
 

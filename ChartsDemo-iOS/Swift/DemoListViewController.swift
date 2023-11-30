@@ -93,7 +93,7 @@ class DemoListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Charts Demonstration"
+        self.title = "DGCharts Demonstration"
         self.tableView.rowHeight = 70
         //FIXME: Add TimeLineChart
         

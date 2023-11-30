@@ -15,7 +15,7 @@ let package = Package(
             targets: ["DGCharts"]),
     ],
     targets: [
-        .target(name: "DGCharts", path: "Source/Charts")
+        .target(name: "DGCharts")
     ],
     swiftLanguageVersions: [.v5]
 )

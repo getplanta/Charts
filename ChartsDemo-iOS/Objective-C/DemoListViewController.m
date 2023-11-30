@@ -6,7 +6,7 @@
 //  A port of MPAndroidChart for iOS
 //  Licensed under Apache License 2.0
 //
-//  https://github.com/danielgindi/Charts
+//  https://github.com/danielgindi/DGCharts
 //
 
 #import "DemoListViewController.h"
@@ -46,7 +46,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Charts Demonstration";
+    self.title = @"DGCharts Demonstration";
 
     self.itemDefs = @[
                       @{

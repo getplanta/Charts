@@ -1,12 +1,12 @@
 //
 //  EquatableTests.swift
-//  Charts
+//  DGCharts
 //
 //  Created by Jacob Christie on 2017-11-13.
 //
 
 import XCTest
-@testable import Charts
+@testable import DGCharts
 
 class EquatableTests: XCTestCase {
     func testChartDataEntryEquality() {

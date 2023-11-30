@@ -6,7 +6,7 @@
 //  A port of MPAndroidChart for iOS
 //  Licensed under Apache License 2.0
 //
-//  https://github.com/danielgindi/Charts
+//  https://github.com/danielgindi/DGCharts
 //
 
 #import "DemoBaseViewController.h"
@@ -273,7 +273,7 @@
     paragraphStyle.lineBreakMode = NSLineBreakByTruncatingTail;
     paragraphStyle.alignment = NSTextAlignmentCenter;
     
-    NSMutableAttributedString *centerText = [[NSMutableAttributedString alloc] initWithString:@"Charts\nby Daniel Cohen Gindi"];
+    NSMutableAttributedString *centerText = [[NSMutableAttributedString alloc] initWithString:@"DGCharts\nby Daniel Cohen Gindi"];
     [centerText setAttributes:@{
                                 NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue-Light" size:13.f],
                                 NSParagraphStyleAttributeName: paragraphStyle

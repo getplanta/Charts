@@ -7,7 +7,7 @@
 
 import XCTest
 import FBSnapshotTestCase
-@testable import Charts
+@testable import DGCharts
 
 class CombinedChartTests: FBSnapshotTestCase
 {

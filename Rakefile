@@ -29,7 +29,7 @@ end
 
 def build_schemes
   %w[
-    Charts
+    DGCharts
   ]
 end
 
@@ -173,7 +173,7 @@ end
 
 desc 'updated the podspec on cocoapods'
 task :update_pod do
-  sh 'bundle exec pod trunk push Charts.podspec --allow-warnings'
+  sh 'bundle exec pod trunk push DGCharts.podspec --allow-warnings'
 end
 
 desc 'generate changelog'

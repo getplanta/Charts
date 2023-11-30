@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Charts
+@testable import DGCharts
 
 class ChartDataTests: XCTestCase {
     
